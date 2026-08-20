@@ -1,3 +1,4 @@
+import GlowCard from "@/app/components/GlowCard";
 import Reveal from "@/app/components/Reveal";
 
 const BENEFITS = [
@@ -41,13 +42,13 @@ export default function BenefitsGrid() {
 
       <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {BENEFITS.map(({ title, description, icon: Icon }, index) => (
-          <Reveal key={title} delay={(index % 4) * 0.08} y={16} className="rounded-2xl bg-brand/5 p-6">
-            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-brand">
+          <GlowCard key={title} delay={(index % 4) * 0.08} y={16}>
+            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-brand/10 text-brand">
               <Icon />
             </span>
             <p className="mt-4 font-heading text-base font-bold text-black">{title}</p>
             <p className="mt-2 text-sm leading-relaxed text-black/55">{description}</p>
-          </Reveal>
+          </GlowCard>
         ))}
       </div>
     </section>

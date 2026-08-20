@@ -1,4 +1,5 @@
 import Image from "next/image";
+import GlowCard from "./GlowCard";
 import Reveal from "./Reveal";
 
 const VALUES = [
@@ -47,13 +48,13 @@ export default function WhyChooseUs() {
       <div className="mt-12 grid gap-8 lg:grid-cols-2 lg:items-stretch">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           {VALUES.map(({ title, description, icon: Icon }, index) => (
-            <Reveal key={title} delay={index * 0.1} y={16} className="rounded-2xl bg-brand/5 p-6">
-              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-brand">
+            <GlowCard key={title} delay={index * 0.1} y={16}>
+              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-brand/10 text-brand">
                 <Icon />
               </span>
               <p className="mt-4 font-heading text-base font-bold text-black">{title}</p>
               <p className="mt-2 text-sm leading-relaxed text-black/55">{description}</p>
-            </Reveal>
+            </GlowCard>
           ))}
         </div>
 

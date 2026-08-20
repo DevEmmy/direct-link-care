@@ -1,3 +1,4 @@
+import GlowCard from "@/app/components/GlowCard";
 import Reveal from "@/app/components/Reveal";
 
 const VALUES = [
@@ -33,19 +34,19 @@ export default function OurApproach() {
 
         <Reveal delay={0.15} className="flex flex-col gap-4">
           {VALUES.map((value, index) => (
-            <Reveal
+            <GlowCard
               key={value}
               delay={index * 0.08}
               y={12}
-              className="flex items-start gap-4 rounded-2xl bg-brand/5 p-5"
+              className="flex items-start gap-4 p-5"
             >
-              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-brand">
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand/10 text-brand">
                 <CheckIcon />
               </span>
               <p className="pt-1 text-sm leading-relaxed font-medium text-black/75 sm:text-base">
                 {value}
               </p>
-            </Reveal>
+            </GlowCard>
           ))}
         </Reveal>
       </div>

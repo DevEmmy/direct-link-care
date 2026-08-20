@@ -1,3 +1,4 @@
+import GlowCard from "@/app/components/GlowCard";
 import Reveal from "@/app/components/Reveal";
 
 export default function ServiceFeatures({
@@ -17,19 +18,19 @@ export default function ServiceFeatures({
 
       <div className="mt-8 grid gap-3 sm:grid-cols-2">
         {features.map((feature, index) => (
-          <Reveal
+          <GlowCard
             key={feature}
             delay={(index % 4) * 0.06}
             y={12}
-            className="flex items-start gap-4 rounded-2xl bg-brand/5 p-5"
+            className="flex items-start gap-4 p-5"
           >
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-brand">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand/10 text-brand">
               <CheckIcon />
             </span>
             <p className="pt-1 text-sm leading-relaxed font-medium text-black/75 sm:text-base">
               {feature}
             </p>
-          </Reveal>
+          </GlowCard>
         ))}
       </div>
     </section>
