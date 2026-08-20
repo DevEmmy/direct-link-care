@@ -7,6 +7,16 @@ import { useState } from "react";
 
 const CARE_SERVICES = [
   {
+    label: "Complex Care & TDDI",
+    href: "/services/complex-care-tddi",
+    description: "Clinical care including tracheostomy, stoma & PEG feeding",
+  },
+  {
+    label: "Children & Young People's Care",
+    href: "/services/children-young-people",
+    description: "Disabilities, autism, ADHD & complex health needs",
+  },
+  {
     label: "Domiciliary Care",
     href: "/services/domiciliary-care",
     description: "In-home visits and live-in support",

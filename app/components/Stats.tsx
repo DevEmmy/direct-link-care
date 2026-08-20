@@ -2,7 +2,7 @@ import CountUp from "./CountUp";
 import Reveal from "./Reveal";
 
 const STATS = [
-  { value: "6", label: "Care Service Lines" },
+  { value: "8", label: "Care Service Lines" },
   { value: "5+", label: "Local Authority Partners" },
   { value: "16+", label: "Ages We Support From" },
   { value: "CQC", label: "Registered Provider" },

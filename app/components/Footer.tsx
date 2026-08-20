@@ -2,6 +2,8 @@ import Link from "next/link";
 import Reveal from "./Reveal";
 
 const SERVICE_LINKS = [
+  { label: "Complex Care & TDDI", href: "/services/complex-care-tddi" },
+  { label: "Children & Young People's Care", href: "/services/children-young-people" },
   { label: "Domiciliary Care", href: "/services/domiciliary-care" },
   { label: "Person Centred Care", href: "/services/person-centred-care" },
   { label: "Supported Living", href: "/services/supported-living" },
@@ -14,6 +16,7 @@ const COMPANY_LINKS = [
   { label: "About Us", href: "/about" },
   { label: "Recruitment", href: "/recruitment" },
   { label: "Carbon Reduction Plan", href: "/carbon-reduction-plan" },
+  { label: "Complaints Policy", href: "/complaints-policy" },
   { label: "Privacy Policy", href: "/privacy-policy" },
 ];
 
@@ -64,7 +67,7 @@ export default function Footer() {
                 Robert Robinson Avenue, Oxford, OX4 4GP
               </span>
               <a href="tel:01865338111" className="transition-colors hover:text-white">
-                0186 533 8111 / 0186 533 8112
+                01865 338111 / 01865 338112
               </a>
               <a
                 href="mailto:info@directlinkcare.com"

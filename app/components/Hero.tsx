@@ -22,10 +22,11 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-md text-base leading-relaxed text-black/60">
-            Direct Link Care partners with local authorities and health teams
-            across Oxford to deliver residential, supported living and
-            specialist care — tailored around each person&apos;s goals, not
-            the other way round.
+            Direct Link Care provides person-centred care and support for
+            children, young people and adults. We work with families, local
+            authorities and healthcare professionals to deliver domiciliary
+            care, complex clinical care, supported living and specialist
+            support tailored to each person&apos;s needs.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-6">
@@ -46,7 +47,7 @@ export default function Hero() {
               <span className="flex h-11 w-11 items-center justify-center rounded-full border border-black/10 text-brand transition-colors group-hover:bg-brand group-hover:text-white">
                 <PhoneIcon />
               </span>
-              Call 0186 533 8111
+              Call 01865 338111
             </a>
           </div>
         </Reveal>

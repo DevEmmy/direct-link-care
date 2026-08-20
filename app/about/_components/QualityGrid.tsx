@@ -4,7 +4,8 @@ import Reveal from "@/app/components/Reveal";
 const ITEMS = [
   {
     title: "CQC Registered Provider",
-    description: "Regulated and inspected care across all six of our service lines.",
+    description:
+      "Registered with the Care Quality Commission to provide Personal Care and Treatment of Disease, Disorder or Injury.",
     icon: ShieldIcon,
   },
   {

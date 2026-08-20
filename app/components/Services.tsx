@@ -7,6 +7,18 @@ import Reveal from "./Reveal";
 
 const SERVICES = [
   {
+    title: "Complex Care & TDDI",
+    description: "Clinical care for complex or long-term health conditions, including tracheostomy and PEG feeding.",
+    href: "/services/complex-care-tddi",
+    image: "/hero/mobility-support.webp",
+  },
+  {
+    title: "Children & Young People's Care",
+    description: "Support for children with disabilities, autism, ADHD and complex health needs.",
+    href: "/services/children-young-people",
+    image: "/hero/tablet-support.webp",
+  },
+  {
     title: "Domiciliary Care",
     description: "Personal care and visits for people living independently in their own home.",
     href: "/services/domiciliary-care",
@@ -26,13 +38,13 @@ const SERVICES = [
   },
   {
     title: "Specialist Support",
-    description: "Tailored support for autism, epilepsy, learning disabilities and mental health needs.",
+    description: "Tailored support for autism, ADHD, epilepsy, learning disabilities and mental health needs.",
     href: "/services/specialist-support",
     image: "/hero/specialist-support.webp",
   },
   {
     title: "Mother & Baby Support",
-    description: "A supported, fully-equipped unit for young parents building an independent family life.",
+    description: "A safe, supportive environment for mothers to build parenting skills and independence.",
     href: "/services/mother-baby-support",
     image: "/hero/family-hug.webp",
   },
@@ -68,8 +80,9 @@ export default function Services() {
         </h2>
 
         <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-black/55 sm:text-base">
-          Six person-centred care services, delivered in partnership with local
-          authorities and health teams across Oxford and the surrounding region.
+          Personalised care and support for children and adults, delivered in
+          partnership with families, local authorities and healthcare
+          professionals.
         </p>
       </Reveal>
 

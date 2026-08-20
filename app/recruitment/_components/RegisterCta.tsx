@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Reveal from "@/app/components/Reveal";
 
-const REGISTER_URL = "https://directlinkcare.com/20xapp.com/staff/register";
+const REGISTER_URL = "https://20xapp.com/staff/register";
 
 export default function RegisterCta() {
   return (

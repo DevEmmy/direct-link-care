@@ -6,7 +6,7 @@ const ACTIONS = [
   { label: "Recruitment", href: "/recruitment" },
   {
     label: "Register as Staff",
-    href: "https://directlinkcare.com/20xapp.com/staff/register",
+    href: "https://20xapp.com/staff/register",
     external: true,
   },
   { label: "Timesheets", href: "/timesheets" },

@@ -14,7 +14,10 @@ const ENQUIRY_TYPES = [
 ];
 
 const SERVICES = [
-  "Domiciliary Care",
+  "Complex Care & TDDI",
+  "Children & Young People's Care",
+  "Live-in Care",
+  "Reablement and Hospital Discharge Support",
   "Person Centred Care",
   "Supported Living",
   "Specialist Support",
@@ -38,7 +41,7 @@ export default function ContactForm() {
         <p className="mt-2 text-sm leading-relaxed text-black/60">
           For now, please call{" "}
           <a href="tel:01865338111" className="font-semibold text-brand">
-            0186 533 8111
+            01865 338111
           </a>{" "}
           or email{" "}
           <a href="mailto:info@directlinkcare.com" className="font-semibold text-brand">

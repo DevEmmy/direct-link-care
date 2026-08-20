@@ -35,10 +35,10 @@ export default function ContactDetailsStrip() {
           </div>
           <div className="mt-4 flex flex-col gap-1">
             <a href="tel:01865338111" className="text-sm text-white/85 transition-colors hover:text-brand">
-              0186 533 8111
+              01865 338111
             </a>
             <a href="tel:01865338112" className="text-sm text-white/85 transition-colors hover:text-brand">
-              0186 533 8112
+              01865 338112
             </a>
             <a href="tel:07717602085" className="text-sm text-white/85 transition-colors hover:text-brand">
               07717 602 085

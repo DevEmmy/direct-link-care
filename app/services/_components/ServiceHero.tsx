@@ -41,7 +41,7 @@ export default function ServiceHero({ service }: { service: Service }) {
               <span className="flex h-11 w-11 items-center justify-center rounded-full border border-black/10 text-brand transition-colors group-hover:bg-brand group-hover:text-white">
                 <PhoneIcon />
               </span>
-              Call 0186 533 8111
+              Call 01865 338111
             </a>
           </div>
         </Reveal>
